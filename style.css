@@ -1,0 +1,76 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    font-family: sans-serif;
+    display: block;
+}
+
+.info-box {
+    background-color: white;
+    padding: 40px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+
+h1, h2 {
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+
+h1 {
+    color: #484c7f;
+}
+
+h2 {
+    color: #95d887;
+    font-weight: normal;
+}
+
+#profile-pic {
+    border-radius: 50%;
+}
+
+#introduction {
+    margin-bottom: 50px;
+}
+
+#buttonLink {
+    background-color: rgb(180, 30, 240);
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+}
+
+#buttonLink:hover {
+    background-color: rgb(20, 18, 18);
+}
+
+#icon-section {
+    list-style: none;
+    padding-left: 0px;
+    
+}
+
+#icon-section li {
+    display: inline;
+    padding: 10px;
+}
+
+#icon-section i {
+    font-size: 50px;
+    color: rgb(220, 220, 220);
+}
+
+#icon-section a {
+    text-decoration: none;
+}
+
+#icon-section i:hover {
+    color: rgb(150, 150, 150);
+}
